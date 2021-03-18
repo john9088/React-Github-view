@@ -39,7 +39,7 @@ const App = () => {
       <UserContext.Provider value={{user, setUser}}>
         <NavBar/>
         <Switch>
-          <Route exact path="/React-Github-view/" component={Home} />
+          <Route exact path="/React-Github-view" component={Home} />
           <Route exact path="/" component={Home} />
           <Route exact path="/signin" component={SignIn} />
           <Route exact path="/signup" component={SignUp} />
